@@ -1,139 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Дежурство мх-21</title>
     <link rel="stylesheet" href="style.css">
-    <title>Дежурство</title>
-    <style type="text/css">
-
-        .person>*{
-            display: inline-block;
-        }
-        .person{
-            margin: auto;
-            width: 95%;
-            max-width: 300px;
-            margin-bottom: 5px;
-            border:black solid 2px;
-
-        }
-        .ppp{
-            border-bottom: black solid 2px;
-        }
-        .score{
-            padding:5px;
-            margin-right: 20px;
-            float: right;
-        }
-        .name{
-            padding:5px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="people">
-<div class="person">
-    <div class="name">Азимов</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Киосев</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Копылова</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Козловская</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Москвалюк</div>
-    <div class="score">2</div>
-</div>
-<div class="person">
-    <div class="name">Никешин</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Першин</div>
-    <div class="score">2</div>
-</div>
-<div class="person">
-    <div class="name">Митров</div>
-    <div class="score">2</div>
-</div>
-<div class="person">
-    <div class="name">Лебедев</div>
-    <div class="score">3</div>
-</div>
-<div class="person">
-    <div class="name">Воробей</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Овчаренко</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Погребняк</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Марценюк</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Филимонова</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Шаров</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Константинов</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Дорощенков</div>
-    <div class="score">2</div>
-</div>
-<div class="person">
-    <div class="name">Кошелев</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Ветохин</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Етих</div>
-    <div class="score">2</div>
-</div>
-<div class="person">
-    <div class="name">Милищук</div>
-    <div class="score">0</div>
-</div>
-<div class="person">
-    <div class="name">Бадоев</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Кулеш</div>
-    <div class="score">1</div>
-</div>
-<div class="person">
-    <div class="name">Воробьев</div>
-    <div class="score">1</div>
-</div>
-<div class="person ppp">
-    <div class="name">Нуртлесов</div>
-    <div class="score">1</div>
-</div></div>
+
+<table>
+    <tr>
+        <th>И.Фамилия</th>
+        <th>Баллы</th>
+    </tr>
+    <tr>
+        <td>И.Киосев</td>
+        <td id="b1">1</td>
+    </tr>
+    <tr>
+        <td>Т.Козловская</td>
+        <td id="b2">1</td>
+    </tr>
+    <tr>
+        <td>А.Москалюк</td>
+        <td id="b3">2</td>
+    </tr>
+    <tr>
+        <td>В.Першин</td>
+        <td id="b4">2</td>
+    </tr>
+    <tr>
+        <td>Д.Митров</td>
+        <td id="b5">2</td>
+    </tr>
+    <tr>
+        <td>А.Лебедев</td>
+        <td id="b6">3</td>
+    </tr>
+    <tr>
+        <td>А.Овчаренко</td>
+        <td id="b7">0</td>
+    </tr>
+    <tr>
+        <td>Д.Прилукова</td>
+        <td id="b8">0</td>
+    </tr>
+    <tr>
+        <td>Я.Погребняк</td>
+        <td id="b9">1</td>
+    </tr>
+    <tr>
+        <td>Е.Марценюк</td>
+        <td id="b10">1</td>
+    </tr>
+    <tr>
+        <td>Т.Филимонова</td>
+        <td id="b11">1</td>
+    </tr>
+    <tr>
+        <td>Н.Шаров</td>
+        <td id="b12">2</td>
+    </tr>
+    <tr>
+        <td>Д.Константинов</td>
+        <td id="b13">1</td>
+    </tr>
+    <tr>
+        <td>Г.Дорощенков</td>
+        <td id="b14">2</td>
+    </tr>
+    <tr>
+        <td>М.Кошелев</td>
+        <td id="b15">0</td>
+    </tr>
+    <tr>
+        <td>В.Ветохин</td>
+        <td id="b16">1</td>
+    </tr>
+    <tr>
+        <td>Я.Етих</td>
+        <td id="b17">2</td>
+    </tr>
+    <tr>
+        <td>Н.Бадоев</td>
+        <td id="b18">1</td>
+    </tr>
+    <tr>
+        <td>К.Кулеш</td>
+        <td id="b19">1</td>
+    </tr>
+    <tr>
+        <td>М.Воробьев</td>
+        <td id="b20">1</td>
+    </tr>
+    <tr>
+        <td>О.Нуртлесов</td>
+        <td id="b21">1</td>
+    </tr>
+</table>
+<script src="script.js"></script>
 </body>
 </html>
+
